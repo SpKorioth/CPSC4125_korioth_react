@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+    text-align: center;
+    width: 18em;
+    border-radius: 1em; padding: 1em;
+    margin:auto;
+    background-color: gainsboro;
+}
+.Lists{
+    text-align: left;
 }
 
 .App-logo {
