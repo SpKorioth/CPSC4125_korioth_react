@@ -27,8 +27,8 @@ class App extends Component {
                     <button type='submit'>add item</button>
                 </form>
                 <div className="Lists">
-                    <TaskList title={'To do'} buttonText={'done'} tasks={this.state.todoList} buttonFunction={this.removeItem}/>
-                    <TaskList title={'Completed'} buttonText={'delete'} tasks={this.state.completedList} buttonFunction={this.deleteItem}/>
+                    <TaskList title={'To do:'} buttonText={'done'} tasks={this.state.todoList} buttonFunction={this.removeItem}/>
+                    <TaskList title={'Completed:'} buttonText={'delete'} tasks={this.state.completedList} buttonFunction={this.deleteItem}/>
                 </div>
             </div>
         );

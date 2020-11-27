@@ -3,8 +3,14 @@
     width: 18em;
     border-radius: 1em; padding: 1em;
     margin:auto;
-    background-color: gainsboro;
+    background-color:  #f2f2f2;
+    position: relative;
+    top: 5em;
+    word-wrap: break-word;
+    border: solid gainsboro 1px;
+    margin-bottom: 5em;
 }
+
 .Lists{
     text-align: left;
 }
