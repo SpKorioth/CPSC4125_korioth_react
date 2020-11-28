@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import TaskList from './TaskList';
 
@@ -39,21 +38,17 @@ class App extends Component {
         //check for empty field
         if(this.state.task !== ''){
         this.setState({task: '', todoList: [...this.state.todoList, this.state.task] });
-        };
-        //this.setState({todoList: 'item1'});
+        }
     }
     removeItem = key =>{
         let todoList = this.state.todoList;
         let index = todoList.indexOf(key);
         if(index > -1){
             todoList.splice(index, 1);
-            this.setState({todoList: todoList})
+            this.setState({todoList: todoList});
             //add item to completed list below (probably fine to use key?)
             this.setState({completedList: [...this.state.completedList, key]});
         }
-        //if(this.state.todoList != null){
-        //    this.setState({todoList: null});
-        //}
     }
     deleteItem = key =>{
         let completedList = this.state.completedList;
