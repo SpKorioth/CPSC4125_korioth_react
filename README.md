@@ -8,6 +8,6 @@
 
 ### Description: 
 
-A website that displays a to-do list. Items are added by typing into the input field and pressing the "add item" button. Items are moved from the "To do:" list to the "Completed:" list by clicking the item. When clicking on an item in the "Completed:" list, the item is completely removed from the webpage.
+A website that displays a to-do list using React. Items are added by typing into the input field and pressing the "add item" button. Items are moved from the "To do:" list to the "Completed:" list by clicking the item. When clicking on an item in the "Completed:" list, the item is completely removed from the webpage.
 
-To launch the website, please navigate to the react-todolist folder with <code>cd react-todolist</code> and follow the directions of the react readme.
+To launch the website, please navigate to the react-todolist folder with <code>cd react-todolist</code> and follow the directions of the React readme.
