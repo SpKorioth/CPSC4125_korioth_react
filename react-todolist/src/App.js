@@ -36,8 +36,10 @@ class App extends Component {
 
     addItem(e){
         e.preventDefault();
-        
+        //check for empty field
+        if(this.state.task !== ''){
         this.setState({task: '', todoList: [...this.state.todoList, this.state.task] });
+        };
         //this.setState({todoList: 'item1'});
     }
     removeItem = key =>{
